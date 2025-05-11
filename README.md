@@ -1,12 +1,12 @@
-## 🧠 Smoking-Related Medical Q&A Chatbot
+# 🧠 Smoking-Related Medical Q&A Chatbot
 This project is a medical question-answering chatbot focused on smoking-related health topics such as nicotine addiction, secondhand smoke, lung cancer, and respiratory effects. It leverages biomedical literature metadata from the CORD-19 dataset (Kaggle version) and uses vector embeddings, chunked document search, and a conversational LLM to deliver factual, context-aware responses.
 
-# 📚 Dataset
-Source: CORD-19 Metadata Dataset on Kaggle
+## 📚 Dataset
+- Source: CORD-19 Metadata Dataset on Kaggle
 
-Abstracts filtered using keywords like "smoking", "tobacco", "nicotine", "lung cancer", etc.
+- Abstracts filtered using keywords like "smoking", "tobacco", "nicotine", "lung cancer", etc.
 
-# 🧰 Technologies Used
+## 🧰 Technologies Used
 Python — for preprocessing, analysis, and automation
 
 LlamaIndex — to build and query a semantic vector index
@@ -17,7 +17,7 @@ Gradio — to create an interactive web-based chatbot UI
 
 Google Colab + Drive — for cloud execution and persistent storage
 
-# 📌 Features
+## 📌 Features
 Filters metadata abstracts from the CORD-19 Kaggle dataset for smoking-related topics
 
 Validates and visualizes keyword distributions and abstract lengths
@@ -30,7 +30,7 @@ Answers user questions via a LLaMA-based medical chatbot
 
 Memory-aware Gradio chat interface with reset capability
 
-# 🚀 How to Run
+## 🚀 How to Run
 Download the dataset from Kaggle: googleai/dataset-metadata-for-cord19
 
 Upload metadata.csv to your Google Drive root directory.
@@ -47,7 +47,7 @@ Create and persist the vector index
 
 Launch the chatbot UI
 
-# 🧠 Example Queries
+## 🧠 Example Queries
 "What are the effects of secondhand smoke?"
 
 "Does smoking increase the risk of lung cancer?"
@@ -56,11 +56,11 @@ Launch the chatbot UI
 
 "How does smoking relate to COVID-19 outcomes?"
 
-# 🛡 Disclaimer
+## 🛡 Disclaimer
 This chatbot is intended for educational and informational purposes only.
 It does not constitute professional medical advice.
 Please consult a healthcare provider for any medical concerns.
 
-# 👤 Author
+## 👤 Author
 Developed by Joan Waweru
 Built as part of a research project combining NLP, biomedical data, and public health education.
