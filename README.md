@@ -4,57 +4,50 @@ This project is a medical question-answering chatbot focused on smoking-related 
 ## 📚 Dataset
 - Source: CORD-19 Metadata Dataset on Kaggle
 
-- Abstracts filtered using keywords like "smoking", "tobacco", "nicotine", "lung cancer", etc.
+- Abstracts filtered using the keywords: 'smoking', 'smoke', 'tobacco', 'nicotine', 'cigarette', 'vaping', 'e-cigarette', 'secondhand', 'lung cancer'.
 
 ## 🧰 Technologies Used
-Python — for preprocessing, analysis, and automation
+- Python — for preprocessing, analysis, and automation
 
-LlamaIndex — to build and query a semantic vector index
+- LlamaIndex — to build and query a semantic vector index
 
-HuggingFace Transformers — for embedding (BioBERT) and language generation (LLaMA)
+- HuggingFace Transformers — for embedding (BioBERT) and language generation (LLaMA)
 
-Gradio — to create an interactive web-based chatbot UI
+- Gradio — to create an interactive web-based chatbot UI
 
-Google Colab + Drive — for cloud execution and persistent storage
+- Google Colab + Drive — for cloud execution and persistent storage
 
 ## 📌 Features
-Filters metadata abstracts from the CORD-19 Kaggle dataset for smoking-related topics
+- Filters metadata abstracts from the CORD-19 Kaggle dataset for smoking-related topics
 
-Validates and visualizes keyword distributions and abstract lengths
+- Validates and visualizes keyword distributions and abstract lengths
 
-Chunks text into semantically searchable units
+- Chunks text into semantically searchable units
 
-Builds a persistent vector store index using BioBERT embeddings
+- Builds a persistent vector store index using BioBERT embeddings
 
-Answers user questions via a LLaMA-based medical chatbot
+- Answers user questions via a LLaMA-based medical chatbot
 
-Memory-aware Gradio chat interface with reset capability
+- Memory-aware Gradio chat interface with reset capability
 
 ## 🚀 How to Run
-Download the dataset from Kaggle: googleai/dataset-metadata-for-cord19
+1. Open the notebook in Google Colab.
 
-Upload metadata.csv to your Google Drive root directory.
+2. Run all cells to:
 
-Open the notebook in Google Colab.
-
-Run all cells to:
-
-Mount Google Drive
-
-Load and preprocess data
-
-Create and persist the vector index
-
-Launch the chatbot UI
+    - Load and preprocess data
+    - Validation and Visualization
+    - Create and persist the vector index
+    - Launch the chatbot UI
 
 ## 🧠 Example Queries
-"What are the effects of secondhand smoke?"
+1. "What are the effects of secondhand smoke?"
 
-"Does smoking increase the risk of lung cancer?"
+2. "Does smoking increase the risk of lung cancer?"
 
-"What is the impact of nicotine on the lungs?"
+3. "What is the impact of nicotine on the lungs?"
 
-"How does smoking relate to COVID-19 outcomes?"
+4. "How does smoking relate to COVID-19 outcomes?"
 
 ## 🛡 Disclaimer
 This chatbot is intended for educational and informational purposes only.
