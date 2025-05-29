@@ -54,6 +54,6 @@ This chatbot is intended for educational and informational purposes only.
 It does not constitute professional medical advice.
 Please consult a healthcare provider for any medical concerns.
 
-## 👤 Author
-Developed by Joan Waweru
+## 👤 Authors
+Developed by Joan Waweru (XVV4Q0), Judy Kimani (V7FSJI) and Jane Wangari (E0RM43)
 Built as part of a research project combining NLP, biomedical data, and public health education.
